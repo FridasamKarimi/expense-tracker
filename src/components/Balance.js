@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'; // Added useContext import
 import { GlobalContext } from '../context/GlobalState';
 
-const Balance = () => {
+export const Balance = () => {
   const { transactions } = useContext(GlobalContext);
 
   // Calculate total with proper reduce syntax and initial value

@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
 // Component name should match the exported name and start with capital letter
-const AddTransaction = () => {
+export const AddTransaction = () => {
     const [text, setText] = useState('');
     const [amount, setAmount] = useState(0);
 
